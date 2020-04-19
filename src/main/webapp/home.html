@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Naive Calculator</title>
+     
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="javascipt/home.js"></script>
+ 
+</head>
+<body>
+   <!-- <form action="webapi/myresource/add" enctype="multipart/form-data" method="post">
+        <label>First number:</label><br>
+        <input type="text" id="op1" name="op1" ><br>
+        <label>Second number:</label><br>
+        <input type="text" id="op2" name="op2"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    -->
+    <form method="post" enctype="multipart/form-data" id="form" name="form">
+    	<label>First number:</label><br>
+        <input type="text" id="op1" name="op1" ><br>
+        <label>Second number:</label><br>
+        <input type="text" id="op2" name="op2"><br><br>
+        <button id="addbtn" name="addbtn" onclick="add()">Add</button>
+        <button id="subbtn" name="subbtn" onclick="sub()">Subtract</button><br>
+        <button id="mulbtn" name="mulbtn" onclick="mul()">Multiply</button>
+        <button id="divbtn" name="divbtn" onclick="div()">Divide</button>
+    </form>
+
+</body>
+</html>

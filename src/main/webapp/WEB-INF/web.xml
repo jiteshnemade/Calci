@@ -20,6 +20,6 @@
         <url-pattern>/webapi/*</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
-        <welcome-file>home.html</welcome-file>
+        <welcome-file>calculator.html</welcome-file>
 	</welcome-file-list>
 </web-app>
